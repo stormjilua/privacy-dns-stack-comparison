@@ -1,0 +1,38 @@
+{
+  "repository": "coredns/coredns",
+  "checked_at": "2026-11-21T21:16:55.183238+08:00",
+  "revision": "996a30df7f5cca79a3bb34078f8897f673ac74dd",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/coredns/coredns.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n996a30df7f5cca79a3bb34078f8897f673ac74dd\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+      "final_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+      "path": "sources/snapshots/coredns--coredns-readme.txt",
+      "sha256": "d9d79c568fdca6878cf316fc47a52cf6a4485b9a85898e791ef6478e78eff298",
+      "http_status": 200,
+      "line_count": 384,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/LICENSE",
+      "path": "sources/snapshots/coredns--coredns-license.txt",
+      "sha256": "f0530760b1e2ffcf23df322db638ee06d06fc07fead0ed3ddd710f2e224698a9",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

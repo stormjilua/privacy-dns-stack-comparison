@@ -1,0 +1,38 @@
+{
+  "repository": "CZ-NIC/knot-resolver",
+  "checked_at": "2026-11-21T21:16:59.278602+08:00",
+  "revision": "ae7d3b9a592fbc0a3282b2f2f813df556269619e",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/CZ-NIC/knot-resolver.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nae7d3b9a592fbc0a3282b2f2f813df556269619e\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+      "final_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+      "path": "sources/snapshots/cz-nic--knot-resolver-readme.txt",
+      "sha256": "cd9fefc89f1f01c24abb61748ccdf50837695327ba65e8f05ff7e679b714026c",
+      "http_status": 200,
+      "line_count": 86,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/COPYING",
+      "final_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/COPYING",
+      "path": "sources/snapshots/cz-nic--knot-resolver-license.txt",
+      "sha256": "201d60fe64f06da966cf7a245f2e8b94eb30ab423e6b36961a475c58e91a8173",
+      "http_status": 200,
+      "line_count": 695,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

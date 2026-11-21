@@ -1,0 +1,38 @@
+{
+  "repository": "NLnetLabs/unbound",
+  "checked_at": "2026-11-21T21:16:49.831748+08:00",
+  "revision": "d1a45312a8473003eacc215bc8be59b928b1cd04",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/NLnetLabs/unbound.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nd1a45312a8473003eacc215bc8be59b928b1cd04\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/README.md",
+      "final_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/README.md",
+      "path": "sources/snapshots/nlnetlabs--unbound-readme.txt",
+      "sha256": "823763ca6aeb270e7fe912c3648913c97e79a8c13f691bcb8e5d40dfc117e174",
+      "http_status": 200,
+      "line_count": 45,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/LICENSE",
+      "path": "sources/snapshots/nlnetlabs--unbound-license.txt",
+      "sha256": "8eb9a16cbfb8703090bbfa3a2028fd46bb351509a2f90dc1001e51fbe6fd45db",
+      "http_status": 200,
+      "line_count": 30,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

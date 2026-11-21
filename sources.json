@@ -1,0 +1,1192 @@
+{
+  "repository": "privacy-dns-stack-comparison",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Pi-hole",
+      "repository": "pi-hole/pi-hole",
+      "url": "https://github.com/pi-hole/pi-hole",
+      "clone_url": "https://github.com/pi-hole/pi-hole.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:36.515114+08:00",
+      "version_or_commit": "f7c0220e63e753c664a1ec08d42d6b647b86005d",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/README.md",
+          "final_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/README.md",
+          "path": "sources/snapshots/pi-hole--pi-hole-readme.txt",
+          "sha256": "0967ddc0ed23f5e46ba066410485edc8a33ffacc5dd7afd907594a3bc5c651b8",
+          "http_status": 200,
+          "line_count": 170,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/LICENSE",
+          "path": "sources/snapshots/pi-hole--pi-hole-license.txt",
+          "sha256": "cca641b5b8b23016d69bb35293b10cab9423b2f3072038f690364694525f70d8",
+          "http_status": 200,
+          "line_count": 146,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/pi-hole/pi-hole.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nf7c0220e63e753c664a1ec08d42d6b647b86005d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "pi-hole--pi-hole-axis-1",
+          "field": "decision_axis_1",
+          "statement": "The Pi-hole\u00ae is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.",
+          "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/README.md",
+          "version_or_commit": "f7c0220e63e753c664a1ec08d42d6b647b86005d",
+          "checked_at": "2026-11-21T21:16:36.515114+08:00",
+          "snapshot_path": "sources/snapshots/pi-hole--pi-hole-readme.txt",
+          "line_start": 13,
+          "line_end": 13,
+          "upstream_excerpt": "The Pi-hole\u00ae is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content without installing any client-side software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pi-hole--pi-hole-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- A filterable and sortable query log",
+          "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/README.md",
+          "version_or_commit": "f7c0220e63e753c664a1ec08d42d6b647b86005d",
+          "checked_at": "2026-11-21T21:16:36.515114+08:00",
+          "snapshot_path": "sources/snapshots/pi-hole--pi-hole-readme.txt",
+          "line_start": 162,
+          "line_end": 162,
+          "upstream_excerpt": "- A filterable and sortable query log",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pi-hole--pi-hole-license",
+          "field": "license_model",
+          "statement": "EUPL-1.2",
+          "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/LICENSE",
+          "version_or_commit": "f7c0220e63e753c664a1ec08d42d6b647b86005d",
+          "checked_at": "2026-11-21T21:16:36.515114+08:00",
+          "snapshot_path": "sources/snapshots/pi-hole--pi-hole-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Copyright (C) 2017 Pi-hole, LLC (https://pi-hole.net)\nPi-hole Core\n\nThis software is licensed under the European Union Public License (EUPL)\nThe license is available in the 22 official languages of the EU. The English version is included here.\nPlease see https://joinup.ec.europa.eu/community/eupl/og_page/eupl for official translations of the other languages.\n\nThis license applies to the whole project EXCEPT:\n\n - any commits made to the master branch prior to the release of version 3.0\n\nThe licenses that existed prior to this change have remained intact.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/pi-hole--pi-hole-observation.json"
+    },
+    {
+      "name": "AdGuard Home",
+      "repository": "AdguardTeam/AdGuardHome",
+      "url": "https://github.com/AdguardTeam/AdGuardHome",
+      "clone_url": "https://github.com/AdguardTeam/AdGuardHome.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:42.039378+08:00",
+      "version_or_commit": "69ee3d389910d5d30701cbe867280cf1809853ac",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/README.md",
+          "final_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/README.md",
+          "path": "sources/snapshots/adguardteam--adguardhome-readme.txt",
+          "sha256": "fa25836c1782a8e07594bf2090cf1a5370c56283df5ce613ad9c6cad2904513d",
+          "http_status": 200,
+          "line_count": 439,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/LICENSE.txt",
+          "path": "sources/snapshots/adguardteam--adguardhome-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/AdguardTeam/AdGuardHome.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n69ee3d389910d5d30701cbe867280cf1809853ac\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "adguardteam--adguardhome-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
+          "upstream_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/README.md",
+          "version_or_commit": "69ee3d389910d5d30701cbe867280cf1809853ac",
+          "checked_at": "2026-11-21T21:16:42.039378+08:00",
+          "snapshot_path": "sources/snapshots/adguardteam--adguardhome-readme.txt",
+          "line_start": 14,
+          "line_end": 14,
+          "upstream_excerpt": "  Free and open source, powerful network-wide ads & trackers blocking DNS server.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "adguardteam--adguardhome-axis-3",
+          "field": "decision_axis_3",
+          "statement": "AdGuard Home is a network-wide software for blocking ads and tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that.",
+          "upstream_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/README.md",
+          "version_or_commit": "69ee3d389910d5d30701cbe867280cf1809853ac",
+          "checked_at": "2026-11-21T21:16:42.039378+08:00",
+          "snapshot_path": "sources/snapshots/adguardteam--adguardhome-readme.txt",
+          "line_start": 48,
+          "line_end": 48,
+          "upstream_excerpt": "AdGuard Home is a network-wide software for blocking ads and tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "adguardteam--adguardhome-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/69ee3d389910d5d30701cbe867280cf1809853ac/LICENSE.txt",
+          "version_or_commit": "69ee3d389910d5d30701cbe867280cf1809853ac",
+          "checked_at": "2026-11-21T21:16:42.039378+08:00",
+          "snapshot_path": "sources/snapshots/adguardteam--adguardhome-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/adguardteam--adguardhome-observation.json"
+    },
+    {
+      "name": "Blocky",
+      "repository": "0xERR0R/blocky",
+      "url": "https://github.com/0xERR0R/blocky",
+      "clone_url": "https://github.com/0xERR0R/blocky.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:44.539328+08:00",
+      "version_or_commit": "8088f1aaca9c595a08e075606ec36793b0493831",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/README.md",
+          "final_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/README.md",
+          "path": "sources/snapshots/0xerr0r--blocky-readme.txt",
+          "sha256": "06021996a678a941d98c9a7beaf378d451659dee80643f0ec23211424190bac1",
+          "http_status": 200,
+          "line_count": 125,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/LICENSE",
+          "path": "sources/snapshots/0xerr0r--blocky-license.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/0xERR0R/blocky.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n8088f1aaca9c595a08e075606ec36793b0493831\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "0xerr0r--blocky-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Supports modern DNS extensions: DNSSEC, eDNS, ... - DNSSEC validation of upstream resolvers",
+          "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/README.md",
+          "version_or_commit": "8088f1aaca9c595a08e075606ec36793b0493831",
+          "checked_at": "2026-11-21T21:16:44.539328+08:00",
+          "snapshot_path": "sources/snapshots/0xerr0r--blocky-readme.txt",
+          "line_start": 53,
+          "line_end": 54,
+          "upstream_excerpt": "  - Supports modern DNS extensions: DNSSEC, eDNS, ...\n  - DNSSEC validation of upstream resolvers",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "0xerr0r--blocky-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Blocking - Blocking of DNS queries with external lists (Ad-block, malware) and allowlisting",
+          "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/README.md",
+          "version_or_commit": "8088f1aaca9c595a08e075606ec36793b0493831",
+          "checked_at": "2026-11-21T21:16:44.539328+08:00",
+          "snapshot_path": "sources/snapshots/0xerr0r--blocky-readme.txt",
+          "line_start": 22,
+          "line_end": 22,
+          "upstream_excerpt": "- **Blocking** - Blocking of DNS queries with external lists (Ad-block, malware) and allowlisting",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "0xerr0r--blocky-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/LICENSE",
+          "version_or_commit": "8088f1aaca9c595a08e075606ec36793b0493831",
+          "checked_at": "2026-11-21T21:16:44.539328+08:00",
+          "snapshot_path": "sources/snapshots/0xerr0r--blocky-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/0xerr0r--blocky-observation.json"
+    },
+    {
+      "name": "Technitium DNS Server",
+      "repository": "TechnitiumSoftware/DnsServer",
+      "url": "https://github.com/TechnitiumSoftware/DnsServer",
+      "clone_url": "https://github.com/TechnitiumSoftware/DnsServer.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:46.314445+08:00",
+      "version_or_commit": "c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+          "final_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+          "path": "sources/snapshots/technitiumsoftware--dnsserver-readme.txt",
+          "sha256": "bc042cb4c9bfcf2fcd031291876fb148136e0c3839b17b3ff53ebdef6c6f403d",
+          "http_status": 200,
+          "line_count": 158,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/LICENSE",
+          "path": "sources/snapshots/technitiumsoftware--dnsserver-license.txt",
+          "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/TechnitiumSoftware/DnsServer.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nc6d66b3247df8cdc8eecdc9b38be51ba8d3c9498\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "technitiumsoftware--dnsserver-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Technitium DNS Server is an open source authoritative as well as recursive DNS server that can be used for self hosting a DNS server for privacy & security. It works out-of-the-box with no or minimal \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+          "version_or_commit": "c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498",
+          "checked_at": "2026-11-21T21:16:46.314445+08:00",
+          "snapshot_path": "sources/snapshots/technitiumsoftware--dnsserver-readme.txt",
+          "line_start": 14,
+          "line_end": 14,
+          "upstream_excerpt": "Technitium DNS Server is an open source authoritative as well as recursive DNS server that can be used for self hosting a DNS server for privacy & security. It works out-of-the-box with no or minimal configuration and provides a user friendly web console accessible using any modern web browser.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "technitiumsoftware--dnsserver-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- DNSSEC validation support with RSA, ECDSA & EdDSA algorithms for recursive resolver, forwarders, and conditional forwarders with NSEC and NSEC3 support. - DNSSEC support for all supported DNS transp\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+          "version_or_commit": "c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498",
+          "checked_at": "2026-11-21T21:16:46.314445+08:00",
+          "snapshot_path": "sources/snapshots/technitiumsoftware--dnsserver-readme.txt",
+          "line_start": 43,
+          "line_end": 44,
+          "upstream_excerpt": "- DNSSEC validation support with RSA, ECDSA & EdDSA algorithms for recursive resolver, forwarders, and conditional forwarders with NSEC and NSEC3 support.\n- DNSSEC support for all supported DNS transport protocols including encrypted DNS protocols.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "technitiumsoftware--dnsserver-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Built-in system logging and query logging.",
+          "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+          "version_or_commit": "c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498",
+          "checked_at": "2026-11-21T21:16:46.314445+08:00",
+          "snapshot_path": "sources/snapshots/technitiumsoftware--dnsserver-readme.txt",
+          "line_start": 88,
+          "line_end": 88,
+          "upstream_excerpt": "- Built-in system logging and query logging.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "technitiumsoftware--dnsserver-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/LICENSE",
+          "version_or_commit": "c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498",
+          "checked_at": "2026-11-21T21:16:46.314445+08:00",
+          "snapshot_path": "sources/snapshots/technitiumsoftware--dnsserver-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/technitiumsoftware--dnsserver-observation.json"
+    },
+    {
+      "name": "Unbound",
+      "repository": "NLnetLabs/unbound",
+      "url": "https://github.com/NLnetLabs/unbound",
+      "clone_url": "https://github.com/NLnetLabs/unbound.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:49.831748+08:00",
+      "version_or_commit": "d1a45312a8473003eacc215bc8be59b928b1cd04",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/README.md",
+          "final_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/README.md",
+          "path": "sources/snapshots/nlnetlabs--unbound-readme.txt",
+          "sha256": "823763ca6aeb270e7fe912c3648913c97e79a8c13f691bcb8e5d40dfc117e174",
+          "http_status": 200,
+          "line_count": 45,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/LICENSE",
+          "path": "sources/snapshots/nlnetlabs--unbound-license.txt",
+          "sha256": "8eb9a16cbfb8703090bbfa3a2028fd46bb351509a2f90dc1001e51fbe6fd45db",
+          "http_status": 200,
+          "line_count": 30,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/NLnetLabs/unbound.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nd1a45312a8473003eacc215bc8be59b928b1cd04\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "nlnetlabs--unbound-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Unbound is a validating, recursive, caching DNS resolver. It is designed to be fast and lean and incorporates modern features based on open standards. If you have any feedback, we would love to hear f\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/README.md",
+          "version_or_commit": "d1a45312a8473003eacc215bc8be59b928b1cd04",
+          "checked_at": "2026-11-21T21:16:49.831748+08:00",
+          "snapshot_path": "sources/snapshots/nlnetlabs--unbound-readme.txt",
+          "line_start": 9,
+          "line_end": 12,
+          "upstream_excerpt": "Unbound is a validating, recursive, caching DNS resolver. It is designed to be\nfast and lean and incorporates modern features based on open standards. If you\nhave any feedback, we would love to hear from you. Don\u2019t hesitate to\n[create an issue on Github](https://github.com/NLnetLabs/unbound/issues/new)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "nlnetlabs--unbound-license",
+          "field": "license_model",
+          "statement": "BSD-3-Clause",
+          "upstream_url": "https://raw.githubusercontent.com/NLnetLabs/unbound/d1a45312a8473003eacc215bc8be59b928b1cd04/LICENSE",
+          "version_or_commit": "d1a45312a8473003eacc215bc8be59b928b1cd04",
+          "checked_at": "2026-11-21T21:16:49.831748+08:00",
+          "snapshot_path": "sources/snapshots/nlnetlabs--unbound-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Copyright (c) 2007, NLnet Labs. All rights reserved.\n\nThis software is open source.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\nRedistributions of source code must retain the above copyright notice,\nthis list of conditions and the following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright notice,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/nlnetlabs--unbound-observation.json"
+    },
+    {
+      "name": "dnscrypt-proxy",
+      "repository": "DNSCrypt/dnscrypt-proxy",
+      "url": "https://github.com/DNSCrypt/dnscrypt-proxy",
+      "clone_url": "https://github.com/DNSCrypt/dnscrypt-proxy.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:51.983147+08:00",
+      "version_or_commit": "a53345698397bce4267fd80246bd2ba378500d79",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/README.md",
+          "final_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/README.md",
+          "path": "sources/snapshots/dnscrypt--dnscrypt-proxy-readme.txt",
+          "sha256": "8a8d525de5374b2d8cdfcd2df1f26ce764e6bc8cb6e3302f2c0e48d45a9bd562",
+          "http_status": 200,
+          "line_count": 101,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/LICENSE",
+          "path": "sources/snapshots/dnscrypt--dnscrypt-proxy-license.txt",
+          "sha256": "df79be79d89973e01fbcdfff58609e0948b95712354ec8f8c79079d47b92d7cf",
+          "http_status": 200,
+          "line_count": 15,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/DNSCrypt/dnscrypt-proxy.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\na53345698397bce4267fd80246bd2ba378500d79\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "dnscrypt--dnscrypt-proxy-axis-2",
+          "field": "decision_axis_2",
+          "statement": "DNS traffic encryption and authentication. Supports DNS-over-HTTPS (DoH) using TLS 1.3 and QUIC, PQDNSCrypt, DNSCrypt, Anonymized DNS and ODoH",
+          "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/README.md",
+          "version_or_commit": "a53345698397bce4267fd80246bd2ba378500d79",
+          "checked_at": "2026-11-21T21:16:51.983147+08:00",
+          "snapshot_path": "sources/snapshots/dnscrypt--dnscrypt-proxy-readme.txt",
+          "line_start": 25,
+          "line_end": 25,
+          "upstream_excerpt": "* DNS traffic encryption and authentication. Supports DNS-over-HTTPS (DoH) using TLS 1.3 and QUIC, PQDNSCrypt, DNSCrypt, Anonymized DNS and ODoH",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dnscrypt--dnscrypt-proxy-axis-3",
+          "field": "decision_axis_3",
+          "statement": "DNS query monitoring, with separate log files for regular and suspicious queries",
+          "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/README.md",
+          "version_or_commit": "a53345698397bce4267fd80246bd2ba378500d79",
+          "checked_at": "2026-11-21T21:16:51.983147+08:00",
+          "snapshot_path": "sources/snapshots/dnscrypt--dnscrypt-proxy-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "* DNS query monitoring, with separate log files for regular and suspicious queries",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dnscrypt--dnscrypt-proxy-license",
+          "field": "license_model",
+          "statement": "ISC",
+          "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/LICENSE",
+          "version_or_commit": "a53345698397bce4267fd80246bd2ba378500d79",
+          "checked_at": "2026-11-21T21:16:51.983147+08:00",
+          "snapshot_path": "sources/snapshots/dnscrypt--dnscrypt-proxy-license.txt",
+          "line_start": 1,
+          "line_end": 15,
+          "upstream_excerpt": "ISC License\n\nCopyright (c) 2018-2026, Frank Denis <j at pureftpd dot org>\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\nREGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\nAND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\nINDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\nLOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/dnscrypt--dnscrypt-proxy-observation.json"
+    },
+    {
+      "name": "CoreDNS",
+      "repository": "coredns/coredns",
+      "url": "https://github.com/coredns/coredns",
+      "clone_url": "https://github.com/coredns/coredns.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:55.183238+08:00",
+      "version_or_commit": "996a30df7f5cca79a3bb34078f8897f673ac74dd",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+          "final_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+          "path": "sources/snapshots/coredns--coredns-readme.txt",
+          "sha256": "d9d79c568fdca6878cf316fc47a52cf6a4485b9a85898e791ef6478e78eff298",
+          "http_status": 200,
+          "line_count": 384,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/LICENSE",
+          "path": "sources/snapshots/coredns--coredns-license.txt",
+          "sha256": "f0530760b1e2ffcf23df322db638ee06d06fc07fead0ed3ddd710f2e224698a9",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/coredns/coredns.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n996a30df7f5cca79a3bb34078f8897f673ac74dd\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "coredns--coredns-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Serve as a proxy to forward queries to some other (recursive) nameserver (forward).",
+          "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+          "version_or_commit": "996a30df7f5cca79a3bb34078f8897f673ac74dd",
+          "checked_at": "2026-11-21T21:16:55.183238+08:00",
+          "snapshot_path": "sources/snapshots/coredns--coredns-readme.txt",
+          "line_start": 40,
+          "line_end": 40,
+          "upstream_excerpt": "* Serve as a proxy to forward queries to some other (recursive) nameserver (*forward*).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "coredns--coredns-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Serve zone data from a file; both DNSSEC (NSEC only) and DNS are supported (file and auto).",
+          "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+          "version_or_commit": "996a30df7f5cca79a3bb34078f8897f673ac74dd",
+          "checked_at": "2026-11-21T21:16:55.183238+08:00",
+          "snapshot_path": "sources/snapshots/coredns--coredns-readme.txt",
+          "line_start": 31,
+          "line_end": 31,
+          "upstream_excerpt": "* Serve zone data from a file; both DNSSEC (NSEC only) and DNS are supported (*file* and *auto*).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "coredns--coredns-axis-3",
+          "field": "decision_axis_3",
+          "statement": "reloads. Query logging still requires the log plugin.",
+          "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/README.md",
+          "version_or_commit": "996a30df7f5cca79a3bb34078f8897f673ac74dd",
+          "checked_at": "2026-11-21T21:16:55.183238+08:00",
+          "snapshot_path": "sources/snapshots/coredns--coredns-readme.txt",
+          "line_start": 116,
+          "line_end": 116,
+          "upstream_excerpt": "reloads. Query logging still requires the `log` plugin.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "coredns--coredns-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/coredns/coredns/996a30df7f5cca79a3bb34078f8897f673ac74dd/LICENSE",
+          "version_or_commit": "996a30df7f5cca79a3bb34078f8897f673ac74dd",
+          "checked_at": "2026-11-21T21:16:55.183238+08:00",
+          "snapshot_path": "sources/snapshots/coredns--coredns-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/coredns--coredns-observation.json"
+    },
+    {
+      "name": "PowerDNS",
+      "repository": "PowerDNS/pdns",
+      "url": "https://github.com/PowerDNS/pdns",
+      "clone_url": "https://github.com/PowerDNS/pdns.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:02.488475+08:00",
+      "version_or_commit": "b2d79981dcfe762ce847f7af1ba8b3756c5013fb",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/README.md",
+          "final_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/README.md",
+          "path": "sources/snapshots/powerdns--pdns-readme.txt",
+          "sha256": "764e1630c791c94726c557bc869f4d6f30c79df7a6e8088e8bdc6fc9a5045eee",
+          "http_status": 200,
+          "line_count": 173,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/COPYING",
+          "final_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/COPYING",
+          "path": "sources/snapshots/powerdns--pdns-license.txt",
+          "sha256": "9d46577f8a94634744e45a55e89f17f19d9fa1eab1bea84ebff664b2395f3207",
+          "http_status": 200,
+          "line_count": 338,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/PowerDNS/pdns.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nb2d79981dcfe762ce847f7af1ba8b3756c5013fb\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "powerdns--pdns-axis-1",
+          "field": "decision_axis_1",
+          "statement": "This repository contains the sources for the PowerDNS Recursor, the PowerDNS Authoritative Server, and dnsdist (a powerful DNS loadbalancer). All three can be built from this repository. However, they\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/README.md",
+          "version_or_commit": "b2d79981dcfe762ce847f7af1ba8b3756c5013fb",
+          "checked_at": "2026-11-21T21:17:02.488475+08:00",
+          "snapshot_path": "sources/snapshots/powerdns--pdns-readme.txt",
+          "line_start": 32,
+          "line_end": 33,
+          "upstream_excerpt": "This repository contains the sources for the PowerDNS Recursor, the PowerDNS\nAuthoritative Server, and dnsdist (a powerful DNS loadbalancer). All three can be built from this repository. However, they are also released separately as .tar.bz2, .deb, and .rpm packages.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "powerdns--pdns-license",
+          "field": "license_model",
+          "statement": "GPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/COPYING",
+          "version_or_commit": "b2d79981dcfe762ce847f7af1ba8b3756c5013fb",
+          "checked_at": "2026-11-21T21:17:02.488475+08:00",
+          "snapshot_path": "sources/snapshots/powerdns--pdns-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/powerdns--pdns-observation.json"
+    },
+    {
+      "name": "BIND 9",
+      "repository": "isc-projects/bind9",
+      "url": "https://github.com/isc-projects/bind9",
+      "clone_url": "https://github.com/isc-projects/bind9.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:56.964798+08:00",
+      "version_or_commit": "e68fc6f174308c9def1f6e8715d790a498b65fbb",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+          "final_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+          "path": "sources/snapshots/isc-projects--bind9-readme.txt",
+          "sha256": "21b54d22bb6a220adb71f66a372fcdeee4b1b890201e8689e4ab5e1405c9023e",
+          "http_status": 200,
+          "line_count": 200,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/LICENSE",
+          "path": "sources/snapshots/isc-projects--bind9-license.txt",
+          "sha256": "d3d6ed2a709a8b82c04a556fc93654a7d4f40d53724d8fdac0ea69aff7087c1e",
+          "http_status": 200,
+          "line_count": 362,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/isc-projects/bind9.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\ne68fc6f174308c9def1f6e8715d790a498b65fbb\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "isc-projects--bind9-axis-1",
+          "field": "decision_axis_1",
+          "statement": "The BIND name server, named, can act as an authoritative name server, recursive resolver, DNS forwarder, or all three simultaneously. It implements views for split-horizon DNS, automatic DNSSEC zone s\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+          "version_or_commit": "e68fc6f174308c9def1f6e8715d790a498b65fbb",
+          "checked_at": "2026-11-21T21:16:56.964798+08:00",
+          "snapshot_path": "sources/snapshots/isc-projects--bind9-readme.txt",
+          "line_start": 30,
+          "line_end": 33,
+          "upstream_excerpt": "The BIND name server, `named`, can act as an authoritative name\nserver, recursive resolver, DNS forwarder, or all three simultaneously. It\nimplements views for split-horizon DNS, automatic DNSSEC zone signing and\nkey management, catalog zones to facilitate provisioning of zone data",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "isc-projects--bind9-axis-2",
+          "field": "decision_axis_2",
+          "statement": "implements views for split-horizon DNS, automatic DNSSEC zone signing and key management, catalog zones to facilitate provisioning of zone data throughout a name server constellation, response policy \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+          "version_or_commit": "e68fc6f174308c9def1f6e8715d790a498b65fbb",
+          "checked_at": "2026-11-21T21:16:56.964798+08:00",
+          "snapshot_path": "sources/snapshots/isc-projects--bind9-readme.txt",
+          "line_start": 32,
+          "line_end": 35,
+          "upstream_excerpt": "implements views for split-horizon DNS, automatic DNSSEC zone signing and\nkey management, catalog zones to facilitate provisioning of zone data\nthroughout a name server constellation, response policy zones (RPZ) to\nprotect clients from malicious data, response rate limiting (RRL) and",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "isc-projects--bind9-axis-3",
+          "field": "decision_axis_3",
+          "statement": "throughout a name server constellation, response policy zones (RPZ) to protect clients from malicious data, response rate limiting (RRL) and recursive query limits to reduce distributed denial of serv\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+          "version_or_commit": "e68fc6f174308c9def1f6e8715d790a498b65fbb",
+          "checked_at": "2026-11-21T21:16:56.964798+08:00",
+          "snapshot_path": "sources/snapshots/isc-projects--bind9-readme.txt",
+          "line_start": 34,
+          "line_end": 37,
+          "upstream_excerpt": "throughout a name server constellation, response policy zones (RPZ) to\nprotect clients from malicious data, response rate limiting (RRL) and\nrecursive query limits to reduce distributed denial of service attacks,\nand many other advanced DNS features. BIND also includes a suite of",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "isc-projects--bind9-license",
+          "field": "license_model",
+          "statement": "MPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/LICENSE",
+          "version_or_commit": "e68fc6f174308c9def1f6e8715d790a498b65fbb",
+          "checked_at": "2026-11-21T21:16:56.964798+08:00",
+          "snapshot_path": "sources/snapshots/isc-projects--bind9-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Mozilla Public License, version 2.0\n\n1. Definitions\n\n1.1. \"Contributor\"\n\n     means each individual or legal entity that creates, contributes to the\n     creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"\n\n     means the combination of the Contributions of others (if any) used by a",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/isc-projects--bind9-observation.json"
+    },
+    {
+      "name": "Knot Resolver",
+      "repository": "CZ-NIC/knot-resolver",
+      "url": "https://github.com/CZ-NIC/knot-resolver",
+      "clone_url": "https://github.com/CZ-NIC/knot-resolver.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:59.278602+08:00",
+      "version_or_commit": "ae7d3b9a592fbc0a3282b2f2f813df556269619e",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+          "final_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+          "path": "sources/snapshots/cz-nic--knot-resolver-readme.txt",
+          "sha256": "cd9fefc89f1f01c24abb61748ccdf50837695327ba65e8f05ff7e679b714026c",
+          "http_status": 200,
+          "line_count": 86,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/COPYING",
+          "final_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/COPYING",
+          "path": "sources/snapshots/cz-nic--knot-resolver-license.txt",
+          "sha256": "201d60fe64f06da966cf7a245f2e8b94eb30ab423e6b36961a475c58e91a8173",
+          "http_status": 200,
+          "line_count": 695,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/CZ-NIC/knot-resolver.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nae7d3b9a592fbc0a3282b2f2f813df556269619e\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "cz-nic--knot-resolver-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Knot Resolver is a full caching DNS resolver implementation. The core architecture is tiny and efficient, written in C and [LuaJIT][luajit], providing a foundation and a state-machine-like API for ext\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+          "version_or_commit": "ae7d3b9a592fbc0a3282b2f2f813df556269619e",
+          "checked_at": "2026-11-21T21:16:59.278602+08:00",
+          "snapshot_path": "sources/snapshots/cz-nic--knot-resolver-readme.txt",
+          "line_start": 14,
+          "line_end": 14,
+          "upstream_excerpt": "Knot Resolver is a full caching DNS resolver implementation. The core architecture is tiny and efficient, written in C and [LuaJIT][luajit], providing a foundation and a state-machine-like API for extension modules. There are three built-in modules - *iterator*, *validator* and *cache* - which provide the main functionality of the resolver. A few other modules are automatically loaded by default to extend the resolver's functionality.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cz-nic--knot-resolver-axis-2",
+          "field": "decision_axis_2",
+          "statement": "The LuaJIT modules, support for DNS privacy and DNSSEC, and persistent cache with low memory footprint make it a great personal DNS resolver or a research tool to tap into DNS data. Strong filtering r\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+          "version_or_commit": "ae7d3b9a592fbc0a3282b2f2f813df556269619e",
+          "checked_at": "2026-11-21T21:16:59.278602+08:00",
+          "snapshot_path": "sources/snapshots/cz-nic--knot-resolver-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "The LuaJIT modules, support for DNS privacy and DNSSEC, and persistent cache with low memory footprint make it a great personal DNS resolver or a research tool to tap into DNS data. Strong filtering rules, and auto-configuration with etcd make it a great large-scale resolver solution. It also has strong support for DNS over TCP, in particular TCP Fast-Open, query pipelining and deduplication, and response reordering.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cz-nic--knot-resolver-axis-3",
+          "field": "decision_axis_3",
+          "statement": "The LuaJIT modules, support for DNS privacy and DNSSEC, and persistent cache with low memory footprint make it a great personal DNS resolver or a research tool to tap into DNS data. Strong filtering r\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/README.md",
+          "version_or_commit": "ae7d3b9a592fbc0a3282b2f2f813df556269619e",
+          "checked_at": "2026-11-21T21:16:59.278602+08:00",
+          "snapshot_path": "sources/snapshots/cz-nic--knot-resolver-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "The LuaJIT modules, support for DNS privacy and DNSSEC, and persistent cache with low memory footprint make it a great personal DNS resolver or a research tool to tap into DNS data. Strong filtering rules, and auto-configuration with etcd make it a great large-scale resolver solution. It also has strong support for DNS over TCP, in particular TCP Fast-Open, query pipelining and deduplication, and response reordering.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cz-nic--knot-resolver-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/CZ-NIC/knot-resolver/ae7d3b9a592fbc0a3282b2f2f813df556269619e/COPYING",
+          "version_or_commit": "ae7d3b9a592fbc0a3282b2f2f813df556269619e",
+          "checked_at": "2026-11-21T21:16:59.278602+08:00",
+          "snapshot_path": "sources/snapshots/cz-nic--knot-resolver-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Unless specifically indicated otherwise in a file or directory,\nfiles are licensed under GNU GPL license either version 3, or\n(at your option) any later version.\n\nSPDX-License-Identifier: GPL-3.0-or-later\nSPDX-URL: https://spdx.org/licenses/GPL-3.0-or-later.html\nLicense-Text:\n\n                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/cz-nic--knot-resolver-observation.json"
+    },
+    {
+      "name": "Stubby",
+      "repository": "getdnsapi/stubby",
+      "url": "https://github.com/getdnsapi/stubby",
+      "clone_url": "https://github.com/getdnsapi/stubby.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:00.791787+08:00",
+      "version_or_commit": "7f07bde70ecb9b53fb5fed765725cef6492daf5c",
+      "branch_at_observation": "develop",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/README.md",
+          "final_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/README.md",
+          "path": "sources/snapshots/getdnsapi--stubby-readme.txt",
+          "sha256": "1fbc4e9fd8a43709b35f7a578db6c995a4c1500eb6bc6136e32e5b2307efce96",
+          "http_status": 200,
+          "line_count": 230,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/COPYING",
+          "final_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/COPYING",
+          "path": "sources/snapshots/getdnsapi--stubby-license.txt",
+          "sha256": "0081c90e18911620fb265255ceaff20c75f40c3f54ee1e73533b2254f742d295",
+          "http_status": 200,
+          "line_count": 30,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/getdnsapi/stubby.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/develop\tHEAD\n7f07bde70ecb9b53fb5fed765725cef6492daf5c\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "getdnsapi--stubby-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Stubby is an application that acts as a local DNS Privacy stub resolver (using DNS-over-TLS). Stubby encrypts DNS queries sent from a client machine (desktop or laptop) to a DNS Privacy resolver incre\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/README.md",
+          "version_or_commit": "7f07bde70ecb9b53fb5fed765725cef6492daf5c",
+          "checked_at": "2026-11-21T21:17:00.791787+08:00",
+          "snapshot_path": "sources/snapshots/getdnsapi--stubby-readme.txt",
+          "line_start": 3,
+          "line_end": 4,
+          "upstream_excerpt": "Stubby is an application that acts as a local **DNS Privacy stub resolver** (using DNS-over-TLS). Stubby encrypts DNS queries sent \nfrom a client machine (desktop or laptop) to a DNS Privacy resolver increasing end user privacy. Stubby is in the early stages ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "getdnsapi--stubby-axis-3",
+          "field": "decision_axis_3",
+          "statement": "tlsquerypaddingblocksize: Use the EDNS0 padding option to pad DNS queries to hide their size ednsclientsubnetprivate: Use EDNS0 Client Subnet privacy so the client subnet is not sent to authoritative \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/README.md",
+          "version_or_commit": "7f07bde70ecb9b53fb5fed765725cef6492daf5c",
+          "checked_at": "2026-11-21T21:17:00.791787+08:00",
+          "snapshot_path": "sources/snapshots/getdnsapi--stubby-readme.txt",
+          "line_start": 86,
+          "line_end": 87,
+          "upstream_excerpt": "*  `tls_query_padding_blocksize`: Use the EDNS0 padding option to pad DNS queries to hide their size\n*  `edns_client_subnet_private`: Use EDNS0 Client Subnet privacy so the client subnet is not sent to authoritative servers",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "getdnsapi--stubby-license",
+          "field": "license_model",
+          "statement": "BSD-3-Clause",
+          "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/COPYING",
+          "version_or_commit": "7f07bde70ecb9b53fb5fed765725cef6492daf5c",
+          "checked_at": "2026-11-21T21:17:00.791787+08:00",
+          "snapshot_path": "sources/snapshots/getdnsapi--stubby-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Copyright (c) 2016, NLnet Labs. All rights reserved.\n\nThis software is open source.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\nRedistributions of source code must retain the above copyright notice,\nthis list of conditions and the following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright notice,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/getdnsapi--stubby-observation.json"
+    },
+    {
+      "name": "RouteDNS",
+      "repository": "folbricht/routedns",
+      "url": "https://github.com/folbricht/routedns",
+      "clone_url": "https://github.com/folbricht/routedns.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:03.958660+08:00",
+      "version_or_commit": "6ac97b1d409e3929a8cb015bfc975cd2274805d8",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+          "final_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+          "path": "sources/snapshots/folbricht--routedns-readme.txt",
+          "sha256": "b55141008790cfbb3b538f51530f8f5892983657e421ddcec8266d2e806ac861",
+          "http_status": 200,
+          "line_count": 307,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/LICENSE",
+          "path": "sources/snapshots/folbricht--routedns-license.txt",
+          "sha256": "a6e171689845d5d15b3fb93d8737dc60d3259bbb708357426e164a8b1f0fb146",
+          "http_status": 200,
+          "line_count": 29,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/folbricht/routedns.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n6ac97b1d409e3929a8cb015bfc975cd2274805d8\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "folbricht--routedns-axis-1",
+          "field": "decision_axis_1",
+          "statement": "RouteDNS is a composable DNS stub resolver, proxy and router written in Go. It enables building flexible DNS processing pipelines with support for all modern DNS protocols, query routing, caching, blo\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+          "version_or_commit": "6ac97b1d409e3929a8cb015bfc975cd2274805d8",
+          "checked_at": "2026-11-21T21:17:03.958660+08:00",
+          "snapshot_path": "sources/snapshots/folbricht--routedns-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "RouteDNS is a composable DNS stub resolver, proxy and router written in Go. It enables building flexible DNS processing pipelines with support for all modern DNS protocols, query routing, caching, blocklists, DNSSEC validation, Lua scripting, and 30+ other pipeline components \u2014 all configured via TOML.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "folbricht--routedns-axis-2",
+          "field": "decision_axis_2",
+          "statement": "RouteDNS is a composable DNS stub resolver, proxy and router written in Go. It enables building flexible DNS processing pipelines with support for all modern DNS protocols, query routing, caching, blo\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+          "version_or_commit": "6ac97b1d409e3929a8cb015bfc975cd2274805d8",
+          "checked_at": "2026-11-21T21:17:03.958660+08:00",
+          "snapshot_path": "sources/snapshots/folbricht--routedns-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "RouteDNS is a composable DNS stub resolver, proxy and router written in Go. It enables building flexible DNS processing pipelines with support for all modern DNS protocols, query routing, caching, blocklists, DNSSEC validation, Lua scripting, and 30+ other pipeline components \u2014 all configured via TOML.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "folbricht--routedns-axis-3",
+          "field": "decision_axis_3",
+          "statement": "RouteDNS is a composable DNS stub resolver, proxy and router written in Go. It enables building flexible DNS processing pipelines with support for all modern DNS protocols, query routing, caching, blo\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+          "version_or_commit": "6ac97b1d409e3929a8cb015bfc975cd2274805d8",
+          "checked_at": "2026-11-21T21:17:03.958660+08:00",
+          "snapshot_path": "sources/snapshots/folbricht--routedns-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "RouteDNS is a composable DNS stub resolver, proxy and router written in Go. It enables building flexible DNS processing pipelines with support for all modern DNS protocols, query routing, caching, blocklists, DNSSEC validation, Lua scripting, and 30+ other pipeline components \u2014 all configured via TOML.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "folbricht--routedns-license",
+          "field": "license_model",
+          "statement": "BSD-3-Clause",
+          "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/LICENSE",
+          "version_or_commit": "6ac97b1d409e3929a8cb015bfc975cd2274805d8",
+          "checked_at": "2026-11-21T21:17:03.958660+08:00",
+          "snapshot_path": "sources/snapshots/folbricht--routedns-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "BSD 3-Clause License\n\nCopyright (c) 2019, Frank Olbricht\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/folbricht--routedns-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.605194+08:00",
+  "review_round": "narrow_remediation"
+}

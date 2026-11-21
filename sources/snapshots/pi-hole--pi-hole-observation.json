@@ -1,0 +1,38 @@
+{
+  "repository": "pi-hole/pi-hole",
+  "checked_at": "2026-11-21T21:16:36.515114+08:00",
+  "revision": "f7c0220e63e753c664a1ec08d42d6b647b86005d",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/pi-hole/pi-hole.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nf7c0220e63e753c664a1ec08d42d6b647b86005d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/README.md",
+      "final_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/README.md",
+      "path": "sources/snapshots/pi-hole--pi-hole-readme.txt",
+      "sha256": "0967ddc0ed23f5e46ba066410485edc8a33ffacc5dd7afd907594a3bc5c651b8",
+      "http_status": 200,
+      "line_count": 170,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/f7c0220e63e753c664a1ec08d42d6b647b86005d/LICENSE",
+      "path": "sources/snapshots/pi-hole--pi-hole-license.txt",
+      "sha256": "cca641b5b8b23016d69bb35293b10cab9423b2f3072038f690364694525f70d8",
+      "http_status": 200,
+      "line_count": 146,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

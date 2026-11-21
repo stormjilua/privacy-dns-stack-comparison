@@ -1,0 +1,38 @@
+{
+  "repository": "PowerDNS/pdns",
+  "checked_at": "2026-11-21T21:17:02.488475+08:00",
+  "revision": "b2d79981dcfe762ce847f7af1ba8b3756c5013fb",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/PowerDNS/pdns.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nb2d79981dcfe762ce847f7af1ba8b3756c5013fb\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/README.md",
+      "final_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/README.md",
+      "path": "sources/snapshots/powerdns--pdns-readme.txt",
+      "sha256": "764e1630c791c94726c557bc869f4d6f30c79df7a6e8088e8bdc6fc9a5045eee",
+      "http_status": 200,
+      "line_count": 173,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/COPYING",
+      "final_url": "https://raw.githubusercontent.com/PowerDNS/pdns/b2d79981dcfe762ce847f7af1ba8b3756c5013fb/COPYING",
+      "path": "sources/snapshots/powerdns--pdns-license.txt",
+      "sha256": "9d46577f8a94634744e45a55e89f17f19d9fa1eab1bea84ebff664b2395f3207",
+      "http_status": 200,
+      "line_count": 338,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

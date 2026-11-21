@@ -1,0 +1,38 @@
+{
+  "repository": "0xERR0R/blocky",
+  "checked_at": "2026-11-21T21:16:44.539328+08:00",
+  "revision": "8088f1aaca9c595a08e075606ec36793b0493831",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/0xERR0R/blocky.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n8088f1aaca9c595a08e075606ec36793b0493831\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/README.md",
+      "final_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/README.md",
+      "path": "sources/snapshots/0xerr0r--blocky-readme.txt",
+      "sha256": "06021996a678a941d98c9a7beaf378d451659dee80643f0ec23211424190bac1",
+      "http_status": 200,
+      "line_count": 125,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/0xERR0R/blocky/8088f1aaca9c595a08e075606ec36793b0493831/LICENSE",
+      "path": "sources/snapshots/0xerr0r--blocky-license.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

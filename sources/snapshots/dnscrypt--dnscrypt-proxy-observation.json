@@ -1,0 +1,38 @@
+{
+  "repository": "DNSCrypt/dnscrypt-proxy",
+  "checked_at": "2026-11-21T21:16:51.983147+08:00",
+  "revision": "a53345698397bce4267fd80246bd2ba378500d79",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/DNSCrypt/dnscrypt-proxy.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\na53345698397bce4267fd80246bd2ba378500d79\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/README.md",
+      "final_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/README.md",
+      "path": "sources/snapshots/dnscrypt--dnscrypt-proxy-readme.txt",
+      "sha256": "8a8d525de5374b2d8cdfcd2df1f26ce764e6bc8cb6e3302f2c0e48d45a9bd562",
+      "http_status": 200,
+      "line_count": 101,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/a53345698397bce4267fd80246bd2ba378500d79/LICENSE",
+      "path": "sources/snapshots/dnscrypt--dnscrypt-proxy-license.txt",
+      "sha256": "df79be79d89973e01fbcdfff58609e0948b95712354ec8f8c79079d47b92d7cf",
+      "http_status": 200,
+      "line_count": 15,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

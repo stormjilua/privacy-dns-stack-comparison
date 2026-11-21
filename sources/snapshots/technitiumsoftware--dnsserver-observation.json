@@ -1,0 +1,38 @@
+{
+  "repository": "TechnitiumSoftware/DnsServer",
+  "checked_at": "2026-11-21T21:16:46.314445+08:00",
+  "revision": "c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/TechnitiumSoftware/DnsServer.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nc6d66b3247df8cdc8eecdc9b38be51ba8d3c9498\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+      "final_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/README.md",
+      "path": "sources/snapshots/technitiumsoftware--dnsserver-readme.txt",
+      "sha256": "bc042cb4c9bfcf2fcd031291876fb148136e0c3839b17b3ff53ebdef6c6f403d",
+      "http_status": 200,
+      "line_count": 158,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/TechnitiumSoftware/DnsServer/c6d66b3247df8cdc8eecdc9b38be51ba8d3c9498/LICENSE",
+      "path": "sources/snapshots/technitiumsoftware--dnsserver-license.txt",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

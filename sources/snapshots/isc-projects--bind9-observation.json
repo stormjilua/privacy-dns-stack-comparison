@@ -1,0 +1,38 @@
+{
+  "repository": "isc-projects/bind9",
+  "checked_at": "2026-11-21T21:16:56.964798+08:00",
+  "revision": "e68fc6f174308c9def1f6e8715d790a498b65fbb",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/isc-projects/bind9.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\ne68fc6f174308c9def1f6e8715d790a498b65fbb\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+      "final_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/README.md",
+      "path": "sources/snapshots/isc-projects--bind9-readme.txt",
+      "sha256": "21b54d22bb6a220adb71f66a372fcdeee4b1b890201e8689e4ab5e1405c9023e",
+      "http_status": 200,
+      "line_count": 200,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/isc-projects/bind9/e68fc6f174308c9def1f6e8715d790a498b65fbb/LICENSE",
+      "path": "sources/snapshots/isc-projects--bind9-license.txt",
+      "sha256": "d3d6ed2a709a8b82c04a556fc93654a7d4f40d53724d8fdac0ea69aff7087c1e",
+      "http_status": 200,
+      "line_count": 362,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

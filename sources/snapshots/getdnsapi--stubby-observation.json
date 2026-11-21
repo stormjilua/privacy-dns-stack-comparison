@@ -1,0 +1,38 @@
+{
+  "repository": "getdnsapi/stubby",
+  "checked_at": "2026-11-21T21:17:00.791787+08:00",
+  "revision": "7f07bde70ecb9b53fb5fed765725cef6492daf5c",
+  "branch": "develop",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/getdnsapi/stubby.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/develop\tHEAD\n7f07bde70ecb9b53fb5fed765725cef6492daf5c\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/README.md",
+      "final_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/README.md",
+      "path": "sources/snapshots/getdnsapi--stubby-readme.txt",
+      "sha256": "1fbc4e9fd8a43709b35f7a578db6c995a4c1500eb6bc6136e32e5b2307efce96",
+      "http_status": 200,
+      "line_count": 230,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/COPYING",
+      "final_url": "https://raw.githubusercontent.com/getdnsapi/stubby/7f07bde70ecb9b53fb5fed765725cef6492daf5c/COPYING",
+      "path": "sources/snapshots/getdnsapi--stubby-license.txt",
+      "sha256": "0081c90e18911620fb265255ceaff20c75f40c3f54ee1e73533b2254f742d295",
+      "http_status": 200,
+      "line_count": 30,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

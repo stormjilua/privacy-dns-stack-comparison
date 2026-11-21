@@ -1,0 +1,38 @@
+{
+  "repository": "folbricht/routedns",
+  "checked_at": "2026-11-21T21:17:03.958660+08:00",
+  "revision": "6ac97b1d409e3929a8cb015bfc975cd2274805d8",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/folbricht/routedns.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n6ac97b1d409e3929a8cb015bfc975cd2274805d8\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+      "final_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/README.md",
+      "path": "sources/snapshots/folbricht--routedns-readme.txt",
+      "sha256": "b55141008790cfbb3b538f51530f8f5892983657e421ddcec8266d2e806ac861",
+      "http_status": 200,
+      "line_count": 307,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/folbricht/routedns/6ac97b1d409e3929a8cb015bfc975cd2274805d8/LICENSE",
+      "path": "sources/snapshots/folbricht--routedns-license.txt",
+      "sha256": "a6e171689845d5d15b3fb93d8737dc60d3259bbb708357426e164a8b1f0fb146",
+      "http_status": 200,
+      "line_count": 29,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
