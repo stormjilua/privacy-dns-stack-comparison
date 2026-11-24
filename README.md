@@ -1,8 +1,9 @@
 # Privacy DNS Stack Comparison
 
-> **Decision:** Assign client policy, blocklists, recursion, encrypted forwarding, authoritative service discovery, and routing to explicit layers without duplicating or exposing a resolver.
 
-**For:** Home-lab and small-network operators building local DNS filtering without confusing blockers, resolvers, and encrypted forwarders.  
+> **Decision:** Use this comparison to assign filtering, recursion, encrypted forwarding, service discovery, and routing to explicit DNS layers; skip it if you plan to stack overlapping resolvers without testing fallback.
+>
+> **For:** home-lab operators, small-network administrators, and privacy-focused self-hosters  ·  **Not for:** users seeking a public resolver ranking or a set-and-forget appliance
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ A common chain is clients → filtering front end → local validating resolver,
 
 DNS resolution, client policy and query trust; not a VPN buying guide or a promise of anonymity.
 
+## Adjacent guides
+
+- [open-source-secrets-management-landscape](https://github.com/RichardPadavttan/open-source-secrets-management-landscape) — Use it when DNS credentials, API tokens, or encrypted configuration need explicit custody and rotation.
+- [self-hosted-uptime-monitoring-map](https://github.com/RoryReeses/self-hosted-uptime-monitoring-map) — Use it when resolver availability and dead-man coverage need independent monitoring.
+- [self-hosted-container-management-map](https://github.com/Hervieux39AC/self-hosted-container-management-map) — Use it when the DNS stack runs in containers and must survive dashboard or control-plane loss.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
