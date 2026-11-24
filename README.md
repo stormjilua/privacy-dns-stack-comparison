@@ -1,6 +1,5 @@
 # Privacy DNS Stack Comparison
 
-
 > **Decision:** Use this comparison to assign filtering, recursion, encrypted forwarding, service discovery, and routing to explicit DNS layers; skip it if you plan to stack overlapping resolvers without testing fallback.
 >
 > **For:** home-lab operators, small-network administrators, and privacy-focused self-hosters  ·  **Not for:** users seeking a public resolver ranking or a set-and-forget appliance
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the dns component evidence](assets/dns-trust-path-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Network-wide filtering appliance: Pi-hole or AdGuard Home.
 - Declarative policy proxy: Blocky; highly composable protocol/routing pipeline: RouteDNS.
@@ -24,12 +22,10 @@ DNSSEC authenticates answers; it does not conceal queries. DoH/DoT protects the 
 
 ## Listener-to-resolver trust map
 
-
 - **Filtering front ends** — Pi-hole and AdGuard Home own client/blocklist policy; Blocky offers declarative forwarding and filtering. Decide whether they forward or sit before local recursion.
 - **Recursive validators** — Unbound, Knot Resolver, and BIND 9 can perform recursion and DNSSEC validation; harden interfaces and resource limits.
 - **Encrypted stubs and routers** — dnscrypt-proxy and Stubby focus encrypted upstream transport; RouteDNS composes listeners, routing, modifiers, and resolvers.
 - **Authoritative and service DNS** — CoreDNS and PowerDNS can serve zones or discovery roles; their recursion/forwarding capabilities must be deliberately bounded.
-
 
 ## DNS component evidence
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Keep the authority path explicit
 
-
 A common chain is clients → filtering front end → local validating resolver, with no public listener. Another is clients → policy proxy → selected DoT/DoH upstreams. Capture normal queries, block hits, DNSSEC failures, upstream timeout, cache behavior, and complete upstream loss before rollout.
-
 
 ## Adoption notes by project
 
